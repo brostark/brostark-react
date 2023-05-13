@@ -1,0 +1,1 @@
+{"version":3,"file":"DocumentFieldObject.d.ts","sourceRoot":"","sources":["../../../src/components/FormDocument/DocumentFieldObject.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,EAAE,SAAS,EAAY,MAAM,OAAO,CAAC;AAMnD,MAAM,WAAW,wBAAwB;IACvC,KAAK,CAAC,EAAE,MAAM,CAAC;IACf,QAAQ,CAAC,EAAE,SAAS,CAAC;CACtB;AAGD,eAAO,MAAM,mBAAmB,EAAE,KAAK,CAAC,EAAE,CAAC,wBAAwB,CAmBlE,CAAA"}

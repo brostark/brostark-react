@@ -1,0 +1,1 @@
+{"version":3,"file":"WatermarkTitle.d.ts","sourceRoot":"","sources":["../../../src/components/WatermarkTitle/WatermarkTitle.tsx"],"names":[],"mappings":"AACA,OAAO,KAAK,MAAM,OAAO,CAAC;AAI1B,UAAU,mBAAmB;IAC3B,KAAK,EAAE,MAAM,CAAC;IACd,KAAK,CAAC,EAAE,OAAO,CAAC;CACjB;AAGD,eAAO,MAAM,cAAc,EAAE,KAAK,CAAC,EAAE,CAAC,mBAAmB,CAexD,CAAC"}

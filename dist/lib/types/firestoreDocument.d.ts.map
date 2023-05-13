@@ -1,0 +1,1 @@
+{"version":3,"file":"firestoreDocument.d.ts","sourceRoot":"","sources":["../../../src/lib/types/firestoreDocument.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,MAAM,UAAU,CAAC;AAGhC,MAAM,WAAW,iBAAiB;IAChC,EAAE,EAAE,MAAM,CAAC;IACX,SAAS,EAAE,QAAQ,CAAC,SAAS,CAAC,SAAS,CAAC;IACxC,SAAS,EAAE,QAAQ,CAAC,SAAS,CAAC,SAAS,CAAC;IAExC,CAAC,GAAG,EAAE,MAAM,GAAG,OAAO,CAAC;CACxB"}

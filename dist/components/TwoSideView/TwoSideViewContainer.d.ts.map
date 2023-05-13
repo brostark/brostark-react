@@ -1,0 +1,1 @@
+{"version":3,"file":"TwoSideViewContainer.d.ts","sourceRoot":"","sources":["../../../src/components/TwoSideView/TwoSideViewContainer.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAI1B,MAAM,WAAW,gBAAgB;IAC/B,QAAQ,CAAC,EAAE,KAAK,CAAC,SAAS,CAAC;IAC3B,SAAS,CAAC,EAAE,MAAM,CAAC;CACpB;AAGD,eAAO,MAAM,oBAAoB,EAAE,KAAK,CAAC,EAAE,CAAC,gBAAgB,CAc3D,CAAA"}

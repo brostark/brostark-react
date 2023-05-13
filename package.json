@@ -4,6 +4,7 @@
   "private": false,
   "license": "MIT",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "npx tsc",
     "watch": "npx tsc --watch"
