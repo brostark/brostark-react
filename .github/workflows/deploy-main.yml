@@ -1,0 +1,39 @@
+name: "Build npm package and upgrade version"
+
+on:
+  push:
+    branches:
+      - "main"
+
+
+jobs:
+  bump-version:
+    name: "Build npm package and upgrade version"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout source code"
+        uses: "actions/checkout@v1"
+        with:
+          ref: ${{ github.ref }}
+      - name: "cat package.json"
+        run: cat ./package.json
+      - name: "Setup Node.js"
+        uses: "actions/setup-node@v1"
+        with:
+          node-version: 12
+      - name: "Automated Version Bump"
+        uses: "phips28/gh-action-bump-version@master"
+        with:
+          major-wording:  'major,MAJOR,release,RELEASE'
+          minor-wording:  'update,UPDATE,add,ADD'
+          patch-wording:  'patch,fixes,FIX'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: "cat package.json"
+        run: cat ./package.json
+
+      - name: Publish
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -1,8 +1,8 @@
 {
   "name": "@brostark/react",
-  "version": "1.0.0",
-  "private": false,
+  "version": "0.0.1",
   "license": "MIT",
+  "private": false,
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
@@ -12,6 +12,9 @@
   "pre-commit": [
     "build"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
